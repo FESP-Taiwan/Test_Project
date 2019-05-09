@@ -6,7 +6,7 @@ import {
 } from '../actions/Member.js';
 
 export default (state = {
-  accessToken: null,
+  accessToken: '111',
 }, action) => {
   switch (action.type) {
     case STORE_MEMBER_ACCESS_TOKEN: {
