@@ -42,8 +42,6 @@ class AccessButton extends PureComponent<Props> {
       removeAccessToken,
     } = this.props;
 
-    console.log(accessToken);
-
     return (
       <div style={styles.wrapper}>
         <button type="button" style={styles.button} onClick={() => storeAccessToken('Ting-accessToken')}>
